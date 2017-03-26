@@ -1,0 +1,94 @@
+
+/*移除样式*/
+.remove_class{display: none;}
+/*头部样式*/
+header{width: 1200px;height: 88px;}
+.header_left{background: url(../images/logo.png) no-repeat center;width: 180px;height: 88px;display: inline-block;float: left;}
+.header_right{margin-left: 350px;width: 600px;height: 88px;display: inline-block;float: right;}
+.time{width: 550px;height: 44px;display: inline-block;float: left;line-height: 45px;}
+.area_time{width: 300px;height: 44px;display: inline-block;float: right;color: #808080;font-size: 16px;}
+.data_time{float: right;}
+.login{width: 550px;height: 44px;display: inline-block;float: left;}
+.login a{text-indent: 15px;line-height: 30px;margin:0 1.5px;color: #0bc8ff;border-radius: 4px;border:1px solid #0bc8ff;font-size: 14px;height: 30px;width: 90px;display: inline-block;float: left;}
+.login a:hover{background-color: #0bc8ff;color: #fff;}
+.inp_user,.inp_pasw{margin-right: 5px;float: left;text-indent: 10px;border-radius: 4px;background-color: #e1e1e1;width: 126px;height: 30px;border:none;}
+.inp_user{margin-left: 23.5px;}
+.inp_pasw{}
+.submit{float: left;position: relative;top: 3px;font-size: 14px;color: #fff;border-radius: 4px;display: inline-block;border:none;height: 27px;width: 65px;background-color: #0cc7fc;}
+.free_play{}
+.register_now{}
+.submit{}
+
+/*导航条样式*/
+.nav{width: 100%;height: 50px;background-color: #31caf6;}
+.nav-bg{display: none;position: absolute;top: 135px;width: 100%;height: 250px;background-color: #141414;background-color: rgba(34,187,231,.7);z-index: 1000;}
+.navlist{width: 1200px;margin: 0 auto;box-sizing: border-box;}
+.nav li{position: relative;display: inline-block;height: 50px;width: 100px;line-height: 50px;text-align: center;}
+.nav a{display: block;font-size: 17px;color: #fff;transition: .3s;}
+.nav dl{display: none;position: absolute;left: -70px;top: 100%;width: 1000px;height: 235px;padding: 5px 0;z-index: 1000;}
+.dropinfo_img{display: inline-block;width: 200px;float: left;height: 235px;}
+.dropinfo_img a{width: 180px;height: 235px;}
+
+/*轮播图和公告样式*/
+.swiper-first img{width:100%;}
+.swiper-first,.swiper-first .swiper-slide{width:100%;}
+
+.swiper-second img{width:230px;}
+.swiper-second{width:1200px;}
+.swiper-second .swiper-slide{width:230px;}
+
+		/*分页器的样式*/
+.swiper-pagination {position: absolute;z-index: 20;bottom: 10px;width: 100%;text-align: center;}
+.swiper-pagination-switch {display: inline-block;width: 15px;height: 15px;border-radius: 8px;background: #555;margin: 0 5px;opacity: 0.8;border: 1px solid #fff;cursor: pointer;}
+.swiper-active-switch {background: #fff;}
+ 
+/* .swiper-button-prev{float: left;width: 20px;height: 20px;display: inline-block;border: 1px solid red;position: absolute;top: 60px;left: -30px;}
+ .swiper-button-next{width: 20px;height: 20px;display: inline-block;border: 1px solid blue;}
+*/
+
+.marquee{height: 40px;width: 1200px;box-sizing: border-box;padding-top: 10px;}
+.navigation_li{height: 40px;width: 1200px;}
+.notice{background: url(../images/notice.png) no-repeat center;float: left;display: inline-block;width: 18px;height: 18px;}
+.marquee_main{margin-left: 10px;float: left;display: inline-block;height: 40px;width: 1170px;}
+
+/*平台展示*/
+.show{height: 530px;width: 1200px;}
+.show_title{padding-bottom: 20px;margin-bottom: 15px;margin-top: 30px;background: url(../images/platform.png) no-repeat center;width: 1200px;height: 45px;border-bottom: 1px solid #eeeeee;}
+.show_main{height: 450px;width: 1200px;}
+.show_main_1,.show_main_2,.show_main_3{margin-top: 5px;height: 400px;display: inline-block;width: 392px;border:1px solid #eee;}
+.show_main_1{background: url(../images/VIDEO.jpg) no-repeat top;}
+.show_main_2{background: url(../images/pe.png) no-repeat top;}
+.show_main_3{background: url(../images/CAIP.jpg) no-repeat top;}
+
+/*公司简介*/
+.company_introduce{margin-top: 100px;width: 100%;height: 450px;background-color: #f5f5f5;}
+.company_contain{width: 1200px;height: 450px;margin: 0 auto;}
+.company_introduce_left{width: 550px;height: 450px;float: left;}
+.company_introduce_left img{width:100%;margin-top: 90px;}
+.company_introduce_left p{font-size: 14px;letter-spacing: 3px;color: #515151;margin-top: 10px;}
+.company_introduce_left span{font-size: 20px;color: #424242;display: inline-block;margin-top: 30px;}
+.company_introduce_right{width: 550px;height: 450px;float: right;}
+.company_introduce_right img{margin-top: 90px;}
+
+/*脚步*/
+.footer_one{margin: 0 auto;width: 1200px;height: 310px;}
+.footer_one_firstpic{width: 100%;height: 150px;}
+.footer_one_secondpic{width: 100%;height: 150px;}
+.footer_one_firstpic img{margin-top: 70px;}
+.footer_one_secondpic img{}
+
+
+.footer_main{width: 100%;height: 250px;background-color: #1f1f1f;}
+.footer_main p{text-align: center;font-size: 16px;color: #757575;margin-top: 20px;}
+.footer_main p:nth-child(2){color: #939393;font-size: 20px;}
+.footer_main p:nth-child(2) a{color: #939393;}
+.footer_main_full{display: inline-block;height: 50px;width: 100%;}
+
+/*客服*/
+.kf{z-index: 10000;width: 240px;height: 310px;display: inline-block;position: fixed;right: 5px;top: 50%;margin-top: -155px;}
+.kf img{display: inline-block;float: left;}
+.kf_main{width: 180px;height: 310px;display: inline-block;float: left;background: url(../images/kefu1.png) no-repeat top;}
+.qq_kf,.online_kf{line-height: 30px;margin-left: 20px;margin-top:225px;color: #56c9ff;text-align: center;border-radius: 4px;display: inline-block;width: 140px;height: 30px;background-color: #fff;}
+.online_kf{margin-top:10px;}
+.qq_kf:hover,.online_kf:hover{transition: 0.5s;margin-top:215px;margin-left: 10px;line-height: 40px;width: 160px;height: 40px;text-shadow: 2px -2px 1px #56c9ff;font-size: 20px;}
+.online_kf:hover{transition: 0.5s;margin-top:5px;}
